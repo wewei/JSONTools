@@ -17,9 +17,5 @@ Pod::Spec.new do |s|
   s.source_files = "JSONTools/*.{h,m}"
   s.dependency "KiteJSONValidator", '~> 0.2.2'
 
-  s.xcconfig     = {
-    'ONLY_ACTIVE_ARCH' => 'NO'
-  }
-  
   s.requires_arc = true
 end
